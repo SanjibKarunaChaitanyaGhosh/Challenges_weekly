@@ -1,0 +1,37 @@
+*{
+    margin: 0px auto;
+    padding: 0 px;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 45, 3);
+}
+
+.calculator{
+    background-color: aliceblue;
+    padding:25px;
+    width: 350px;
+    box-shadow:  0 4px 10px;
+}
+
+.calculator h2{
+    padding: 10px; 
+    /* advaiced by Arnab da */
+    text-align: center;
+}
+
+.calculator input{
+    width: 100%;
+    padding: 10px;
+}
+.buttons{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: aqua;
+}

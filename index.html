@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="icon" href="./images/calculator.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        <div class="calculator">
+
+            <h2>Simple Calculator</h2>
+
+            <!-- Input box -->
+            <input type=number placeholder="Enter your first number" id="num1">
+            <input type=number placeholder="Enter second number" id="num2">
+
+            <!-- Buttons of the calculator-->
+            <div class="buttons">
+                <button onclick="add()">ADD</button>
+                <button onload="sub()">SUB</button>
+                <button onload="div()">DIV</button>
+                <button onload="mul()">MUL</button>
+            </div>
+
+            <p id="result">
+                <strong>Result : </strong>
+            </p>
+
+        </div>
+
+        <script src="calc.js"></script>
+</body>
+</html>
